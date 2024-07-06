@@ -1,4 +1,5 @@
 import React ,{ useState, useEffect }from "react";
+import { Navbar } from "react-bootstrap";
 
 
 function NewsComponent() {
@@ -16,6 +17,7 @@ function NewsComponent() {
   
   return (
     <div>
+        <Navbar/>
         <div className='container'>
             <div className='row'>
                 {
